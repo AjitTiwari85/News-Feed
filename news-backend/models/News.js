@@ -11,4 +11,7 @@ const NewsSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-export default mongoose.model("News", NewsSchema);
+NewsSchema.index({ category: 1 }); // Index for faster queries
+
+const News = mongoose.model("News", NewsSchema);
+export default News;

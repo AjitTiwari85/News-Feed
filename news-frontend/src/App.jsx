@@ -7,6 +7,8 @@ import NewsCard from "./components/NewsCard.jsx";
 import NewsForm from "./components/NewsForm.jsx";
 // import "./App.css";
 import './index.css'; // Adjust the path if necessary
+import "../dist/output.css";
+
 
 
 const App = () => {
@@ -27,6 +29,7 @@ const App = () => {
   }, [dispatch]);
 
   return (
+    
     <div className="min-h-screen bg-gray-100 flex flex-col items-center p-4">
       <h1 className="text-3xl font-bold text-blue-600 mb-4">📰 Real-Time News Feed</h1>
       

@@ -1,9 +1,9 @@
 /* General Page Styles */
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f3f4f6; /* Light gray background */
+  background-color: #c8cfdd; /* Light gray background */
 }
 
 /* App Container */
@@ -17,7 +17,7 @@ body {
 
 /* Title */
 .app-title {
-  font-size: 2rem;
+  font-size: 10rem;
   font-weight: bold;
   color: #1e40af; /* Blue-600 */
   margin-bottom: 20px;

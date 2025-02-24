@@ -4,6 +4,8 @@ import App from "./App.jsx"; // Importing the main App component
 import { Provider } from "react-redux"; // Redux Provider
 import store from "./redux/store.js"; // Import Redux store
 import "./index.css"; // Global CSS file
+import "../dist/output.css";
+
 
 // Get the root element from the DOM
 const root = document.getElementById("root");
